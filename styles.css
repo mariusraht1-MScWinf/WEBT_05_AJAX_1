@@ -1,0 +1,14 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid black;
+  font-size: 34px;
+}
+
+th:first-child,
+td:first-child {
+  border-right: 1px solid black;
+}
